@@ -1,0 +1,31 @@
+{
+  "name": "templateServer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "nodemon index.js",
+    "migrate": "npx sequelize db:migrate",
+    "seed": "npx sequelize db:seed",
+    "gmigration": "npx sequelize migration:generate",
+    "gmodel": "npx sequelize model:generate",
+    "gseeder": "npx sequelize seed:generate",
+    "mundo": "npx sequelize db:migrate:undo",
+    "mundoall": "npx sequelize db:migrate:undo:all"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.18.4"
+  },
+  "devDependencies": {
+    "babel-register": "^6.26.0",
+    "eslint": "^6.4.0",
+    "nodemon": "^1.19.2",
+    "sequelize-cli": "^5.5.1"
+  }
+}
