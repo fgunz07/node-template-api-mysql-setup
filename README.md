@@ -3,6 +3,10 @@
 ```javascript
   npm install
 ```
+### Start the application and open ```localhost:8081/example```
+```javascript
+  npm start
+```
 
 ### Generate a model
 ```javascript
@@ -11,12 +15,12 @@
 
 ### Generate a migration 
 ```javascript
-  yarn run gmigration --name <Model Name> --attributes name:string
+  yarn run gmigration --name <Migration Name> --attributes name:string
 ```
 
 ### Generate a seeder
 ```javascript
-  yarn run gseeder --name <Model Name> --attributes name:string
+  yarn run gseeder --name <Seeder Name> --attributes name:string
 ```
 
 ### Migrate pending migrations
