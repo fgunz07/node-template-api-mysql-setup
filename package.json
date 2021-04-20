@@ -4,6 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
+  "author": {
+    "name": "Rey Mark A. Engada",
+    "email": "mhikeking0@gmail.com"
+  },
   "scripts": {
     "start": "nodemon index.js",
     "migrate": "npx sequelize db:migrate",
